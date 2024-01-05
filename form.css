@@ -1,0 +1,46 @@
+body{
+    background-color: grey;
+}
+
+form{
+    color:green;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 90vh;  
+    line-height: 3rem;
+    margin:40px auto;
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 15px 5px black;
+}
+
+h2{
+    font-size:2.5rem ;
+}
+
+form input{
+    height: 50px;
+    width: 80%;
+    margin: 5px auto;
+    border-radius: 10px;
+    background-color: rgb(235, 223, 223);
+    color: black;
+}
+
+form input::placeholder{
+    font-size: 1rem;
+    color: black;   
+}
+
+form button{
+    background-color: blue;
+    color: white;
+    height: 55px;
+    width: 80%;
+    margin: 5px auto;
+    border-radius: 10px;
+    font-size: 2rem;
+}

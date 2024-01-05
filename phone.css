@@ -1,0 +1,127 @@
+@media screen and (max-width:1030px) {
+    nav .become {
+        display: none;
+    }
+
+    nav .eng {
+        display: none;
+    }
+
+    nav .bus {
+        display: none;
+    }
+
+    .slidebar .one {
+        font-size: 3rem;
+    }
+
+    .slidebar .two {
+        font-size: 4rem;
+    }
+
+}
+
+@media screen and (max-width:680px) {
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        gap: 5px;
+    }
+
+    .hamburger .three {
+        width: 40px;
+        height: 10px;
+        background-color: black;
+        margin: 0px;
+        border-radius: 10px;
+    }
+     
+    .hamburger:hover {
+        width: 50px;
+        height: 50px;
+        border: 2px soid black;
+        border-radius: 10px;
+        background-color: blue;
+    }
+
+    nav .ex {
+        display: none;
+    }
+
+    nav .sign {
+        display: none;
+    }
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    .hero span {
+        font-size: 2.5rem;
+    }
+
+    div button {
+        width: 183px;
+        height: 47px;
+    }
+
+    .slidebar .one {
+        font-size: 2rem;
+    }
+
+    .slidebar .two {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+    nav {
+        flex-direction: column;
+        height: 227px;
+    }
+
+    nav .search {
+        width: 100vw;
+        margin: 10px;
+    }
+
+    nav input {
+        width: 90%;
+        font-size: 1.3rem;
+    }
+
+    nav .join {
+        margin-bottom: 10px;
+    }
+
+    video {
+        bottom: 0px;
+    }
+
+    .hero {
+        margin-top: 305px;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .hero span {
+        font-size: 1.5rem;
+    }
+
+    .slidebar {
+        bottom: -199px;
+    }
+
+    .slidebar .one {
+        font-size: 1rem;
+    }
+
+    .slidebar .two {
+        font-size: 1.5rem;
+    }
+
+}
